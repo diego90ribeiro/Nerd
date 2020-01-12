@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fundo{
+	background: url(../img/home-banner.jpg);
+	background-attachment: scroll;
+	background-size:cover;
+	min-height:800px;
+}
+.fundo-icon{
+	min-height:350px !important;
+}
+.fundo-2{
+	width:auto;
+	min-height:350px !important;
+	padding-bottom:10px;
+}
+.fundo-3{
+	width:auto;
+	min-height:400px;
+}
+.fundo-4{
+	width:auto;
+	min-height:250px;
+	background-color:#0055A6;
+}
+.fundo-5{
+
+	width:auto;
+	min-height:500px;
+}
+.cursor{
+	cursor:pointer;
+}
+.vertical-center-top { /*alinhamento vertical*/
+  min-height: 100%;  
+  min-height: 100vh; 
+  
+
+  display:flex;
+  align-items: center;
+}
+
+.vertical-center { /*alinhamento vertical*/
+  min-height: 100%;  
+  min-height: 100vh; 
+
+  display:flex;
+  align-items: center;
+}
+
+.horizontal-center {
+    margin: 0 auto;
+    width: 100%;
+}
+.abaixa-top{
+	margin-top:100px;
+}
+.z-2{
+	position:relative;
+	top:-150px !important;
+}
+.click{
+	padding-bottom:0px;
+	height:50px;
+	border-bottom:5px solid;
+	border-bottom-color:#fff;
+
+	
+}
+.click:hover{
+	border-bottom:5px solid;
+	border-bottom-color:#009;
+
+}
+.click:active{
+	
+	padding-top:10px;
+	border-bottom:5px solid;
+	border-bottom-color:#009;	
+}
+.hr {
+	width:100px;
+    color: #ED1314;
+    background-color: #f00;
+    height: 5px;
+    }
+
+
+
+
+
+
